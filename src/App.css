@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
+  height: 100vh;
+  background-image: url(https://volumeupdigital.com/wp-content/uploads/bb-plugin/cache/omnichannel-shopping-experience-scaled-landscape-c7bdbb409a5a6eb9afec1cded940c2e4-60648c0e9a115.jpeg);
+  background-size: cover;
+  background-position: center;
+}
