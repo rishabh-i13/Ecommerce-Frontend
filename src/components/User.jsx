@@ -131,7 +131,7 @@ function UserProfile() {
         </div>
       </main>
       <section className="container mx-auto px-4 py-8">
-        <div className="text-2xl flex gap-2 font-semibold text-gray-800 mb-4"> Product List < MdOutlineCreateNewFolder onClick={onOpenModalC} className="text-4xl text-gray-600 cursor-pointer "  /></div>
+        <div className="text-2xl flex gap-2 font-semibold text-gray-800 mb-4"> Added Products < MdOutlineCreateNewFolder onClick={onOpenModalC} className="text-4xl text-gray-600 cursor-pointer "  /></div>
         <Modal open={openc} onClose={onCloseModalC} center>
               <div className="p-4">
                 <h2 className="text-xl font-bold mb-4">Create Product</h2>
@@ -191,7 +191,7 @@ function UserProfile() {
                 </button>
               </div>
             </Modal>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="w-[80vw] m-[auto] flex justify-center item-center pb-10 flex-wrap">
           {products?.map((product) => (
             (product.merchant_id === parseInt(id)) && <div className="max-w-sm rounded-[10px] bg-slate-200 overflow-hidden cursor-pointer shadow-lg p-8 border-black m-2 mx-5"  >
 
