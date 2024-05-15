@@ -123,7 +123,7 @@ function UserProfile() {
     <div className="min-h-screen bg-gray-100">
       {/* Navbar code here */}
       {/* Navbar is assumed to be outside of this component */}
-      <main className="bg-cover bg-center relative" style={bgImage}>
+      <main className="bg-cover bg-center relative">
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 text-white text-center pt-24">
           <h1 className="text-4xl font-bold">Furniture Wala</h1>
